@@ -1,0 +1,55 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.dvCaixa {
+  width: 100%;
+  text-align: center;
+
+}
+
+.dvCaixa div {
+  padding: 20px;
+  width: 33%;
+  display: inline-block;
+  background-color: #d9d9d9;
+  text-align: left;
+}
+
+.dvCaixa :nth-child(3) {
+  background-color: #e60000;
+  color: #ffe6e6;
+}
+
+.dvSearch {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dvSearch div,
+.dvSearch form input,
+.dvSearch form button {
+  display: inline-block;
+}
+
+.dvSearch form input {
+  width: 80%;
+}
+
+.dvSearch form button {
+  width: 19%;
+}
+
+.dvSearch div:nth-child(1) {
+  width: 80%;
+}
+
+.dvSearch div:nth-child(2) {
+  width: 19%;
+  text-align: right;
+}
